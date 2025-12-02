@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity Christmas Gift Shop</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-light">
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <div class="container">
+        <a class="navbar-brand" href="#">🎄 Charity Christmas Gift Shop</a>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#gallery">Gifts</a></li>
+                <li class="nav-item"><a class="nav-link" href="#cart-section">Cart</a></li>
+                <li class="nav-item"><a class="nav-link" href="#checkout-section">Checkout</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container mt-3">
+    <div class="alert alert-success text-center">
+        Buy <strong>3 or more gifts</strong> and get a <strong>10% charity discount</strong>!
+    </div>
+</div>
+
+
+<section class="container my-5" id="gallery">
+    <h2 class="mb-4 text-center">Christmas Charity Gifts</h2>
+
+    <div class="row g-4">
+
+    
+        <div class="col-md-4 col-lg-3">
+            <div class="card h-100">
+                <img src="img/gift1.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Holiday Food Basket </h5>
+                    <p class="card-text small">Food For One Family</p>
+                    <p class="fw-bold">€35</p>
+                    <button class="btn btn-danger w-100 add-to-cart"
+                            data-id="1" data-name="Holiday Food Basket" data-price="35">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="col-md-4 col-lg-3">
+            <div class="card h-100">
+                <img src="img/gift2.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Cozy Winter Socks </h5>
+                    <p class="card-text small">Warm socks for children </p>
+                    <p class="fw-bold">€12</p>
+                    <button class="btn btn-danger w-100 add-to-cart"
+                            data-id="2" data-name="Cozy winter socks" data-price="12">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 col-lg-3">
+            <div class="card h-100">
+                <img src="img/gift3.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Children’s School Supplies Kit</h5>
+                    <p class="card-text small">Essential school materials for children in need.</p>
+                    <p class="fw-bold">€20</p>
+                    <button class="btn btn-danger w-100 add-to-cart"
+                            data-id="3" data-name="Children’s school supplies kit" data-price="20">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="col-md-4 col-lg-3">
+            <div class="card h-100">
+                <img src="img/gift4.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Christmas Kids Gift Box</h5>
+                    <p class="card-text small">A box of toys, treats, and Christmas surprises for kids.</p>
+                    <p class="fw-bold">€15</p>
+                    <button class="btn btn-danger w-100 add-to-cart"
+                            data-id="4" data-name="Christmas Kids Gift Box" data-price="15">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-4 col-lg-3">
+            <div class="card h-100">
+                <img src="img/gift5.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Christmas Toy Pack</h5>
+                    <p class="card-text small">Toys and warm items for children.</p>
+                    <p class="fw-bold">€20</p>
+                    <button class="btn btn-danger w-100 add-to-cart"
+                            data-id="5" data-name="Christmas Toy Pack" data-price="20">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-4 col-lg-3">
+            <div class="card h-100">
+                <img src="img/gift6.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Cozy Winter Blanket </h5>
+                    <p class="card-text small">A warm knitted blanket for the winter season.</p>
+                    <p class="fw-bold">€20</p>
+                    <button class="btn btn-danger w-100 add-to-cart"
+                            data-id="6" data-name="Cozy Winter Blanket" data-price="20">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-4 col-lg-3">
+            <div class="card h-100">
+                <img src="img/gift7.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Holiday Treat Box</h5>
+                    <p class="card-text small">Cookies, cocoa, chocolate, and festive surprises.</p>
+                    <p class="fw-bold">€18</p>
+                    <button class="btn btn-danger w-100 add-to-cart"
+                            data-id="7" data-name="Holiday Treat Box" data-price="18">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-4 col-lg-3">
+            <div class="card h-100">
+                <img src="img/gift8.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Christmas Gift Box</h5>
+                    <p class="card-text small">Premium holiday treats and warm winter gifts.</p>
+                    <p class="fw-bold">€22</p>
+                    <button class="btn btn-danger w-100 add-to-cart"
+                            data-id="8" data-name="Christmas Gift Box" data-price="22">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-4 col-lg-3">
+            <div class="card h-100">
+                <img src="img/gift9.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Food Essentials Bag</h5>
+                    <p class="card-text small">A bag filled with basic food items, snacks, and holiday essentials.</p>
+                    <p class="fw-bold">€40</p>
+                    <button class="btn btn-danger w-100 add-to-cart"
+                            data-id="9" data-name="Food Essentials Bag" data-price="40">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-4 col-lg-3">
+            <div class="card h-100">
+                <img src="img/gift10.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Winter Hat Gift Set</h5>
+                    <p class="card-text small">A soft winter hat with chocolates, treats, and festive gifts.</p>
+                    <p class="fw-bold">€17</p>
+                    <button class="btn btn-danger w-100 add-to-cart"
+                            data-id="10" data-name="Winter Hat Gift Set" data-price="17">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+       
+        
+
+
+    </div>
+</section>
+
+
+<section class="container my-5" id="cart-section">
+    <h2 class="mb-4">Your Cart</h2>
+
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Gift</th>
+            <th>Price</th>
+            <th>Qty</th>
+            <th>Total</th>
+            <th>Remove</th>
+        </tr>
+        </thead>
+        <tbody id="cart-body"></tbody>
+    </table>
+
+    <p><strong>Items:</strong> <span id="cart-items-count">0</span></p>
+    <p><strong>Subtotal:</strong> €<span id="cart-subtotal">0.00</span></p>
+    <p><strong>Discount:</strong> €<span id="cart-discount">0.00</span></p>
+    <p><strong>Tax:</strong> €<span id="cart-tax">0.00</span></p>
+    <h4><strong>Total:</strong> €<span id="cart-total">0.00</span></h4>
+
+    <button id="checkout-btn" class="btn btn-success mt-3" disabled>Proceed to Checkout</button>
+</section>
+
+
+<section class="container my-5 d-none" id="checkout-section">
+    <h2 class="mb-4">Checkout</h2>
+
+    <form id="checkout-form">
+
+        <div class="row g-3">
+
+            <div class="col-md-6">
+                <label class="form-label">Full Name</label>
+                <input id="fullName" class="form-control" type="text">
+                <div class="invalid-feedback">Required</div>
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label">Email</label>
+                <input id="email" class="form-control" type="email">
+                <div class="invalid-feedback">Invalid email</div>
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label">Phone</label>
+                <input id="phone" class="form-control" type="text">
+                <div class="invalid-feedback">Only digits allowed</div>
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label">ZIP Code</label>
+                <input id="zip" class="form-control" type="text">
+                <div class="invalid-feedback">Max 6 characters</div>
+            </div>
+
+            <div class="col-md-12">
+                <label class="form-label">Address</label>
+                <input id="address" class="form-control" type="text">
+                <div class="invalid-feedback">Required</div>
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label">City</label>
+                <input id="city" class="form-control" type="text">
+                <div class="invalid-feedback">Required</div>
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label">Country</label>
+                <input id="country" class="form-control" type="text">
+                <div class="invalid-feedback">Required</div>
+            </div>
+
+            <div class="col-md-12 mt-3">
+                <button class="btn btn-danger w-100" type="submit">Confirm Order</button>
+            </div>
+
+        </div>
+
+    </form>
+</section>
+
+
+<section class="container my-5 d-none" id="confirmation-section">
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">Thank you for your Christmas donation! 🎄</h3>
+            <p class="card-text">We have received your order. Here is a summary:</p>
+
+            <div id="confirmation-details"></div>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
